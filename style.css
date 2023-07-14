@@ -115,6 +115,7 @@ body {
   .skill-content{
     display: flex;
     justify-content: center;
+    gap: 5px;
   }
   .skill{
   border-radius: 5px;
@@ -171,4 +172,19 @@ body {
   background: #FFF;
   border: 0;
   width: 100%;
+  }
+
+  /* responsive style */
+
+  
+    
+  @media screen and (max-width:576px) {
+   .skill-content{
+    flex-direction:column;
+   }
+   
+   #about-info-des{
+    margin: 10px;
+   }
+    
   }
